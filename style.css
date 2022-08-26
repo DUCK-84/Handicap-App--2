@@ -1,0 +1,90 @@
+body {
+  box-sizing: border-box;
+  background: rgb(162, 159, 159);
+}
+
+#container {
+  height: 100%;
+  width: 100%;
+}
+
+#heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px dotted rgb(6, 162, 32);
+  background: green;
+  color: rgb(156, 226, 168);
+}
+
+#mainChariot {
+  width: 400px;
+  height: 400px;
+}
+
+.input {
+  margin-top: 5px;
+  width: 50px;
+}
+
+#inputs {
+  margin-top: -11px;
+}
+
+#score {
+  margin-left: 6px;
+}
+
+#slope {
+  margin-left: 6px;
+}
+
+#submitBtn {
+  background: rgb(10, 70, 208);
+  color: azure;
+}
+
+#handicapBtn {
+  background: red;
+  color: white;
+}
+
+#chariot-blues {
+  margin-left: 0;
+
+  background-color: blue;
+  color: white;
+}
+
+#chariot {
+  margin-left: 32%;
+  opacity: 0.4;
+}
+
+#results {
+  /* margin-left: 40%; */
+  margin-top: 5px;
+  height: 150px;
+  width: 250px;
+  border: 2px solid black;
+  background: green;
+  text-align: center;
+  color: white;
+  overflow-x: scroll;
+}
+
+.innerHTML {
+  font-size: 19px;
+  color: rgb(238, 193, 193);
+  text-align: center;
+  margin: 3px;
+}
+
+/* #rules {
+  margin-top: 0px;
+  padding: 0;
+  color: blue;
+  height: 100px;
+  width: 100px;
+  font-size: large;
+} */
